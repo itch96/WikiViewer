@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<title>Wikipedia Viewer</title>
+		<link rel="stylesheet" href="Frameworks/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<!--A pulsating search button with the text "Search" on top-->
+		<!--After clicking the search button, it expands and glows with focus-->
+		<!--User enters the search string and presses enter-->
+		<!--The search box transitions up along with the search results-->
+		<!--If user clicks on a result, it takes them to the article in new tab-->
+		<!--If user wants to search again, it enters text in the search box-->
+		<!--The old results move to the left with transition-->
+		<!--The new results come up with transition-->
+
+		<!-- Click icon to search-->
+		<div class="search_text container-fluid">Search</div>
+
+		<!--The horizontal bar-->
+		<div class="horizontal"></div>
+
+		<!--The rotating eye-->
+		<img src="search_icon.gif" class="search_icon img-responsive" alt="Search"/><input type="search" name="search" placeholder="Search Wikipedia" class="search_box" id="search_box">
+
+		<!--The output-->
+		<div class="result"></div>
+
+		<script src="Frameworks/jQuery/jQuery.js"></script>
+		<script src="Frameworks/bootstrap/js/bootstrap.min.js"></script>
+		<script src="jscript.js"></script>
+	</body>
+</html>
